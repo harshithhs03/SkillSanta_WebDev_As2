@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #F40E23 ;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #81E08F ;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #81E08F ;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #F40E23;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span class="glyphicon glyphicon-heart-empty"></span>  Heart Association</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+	<a href="index.html"><li>Home</li></a>
+    <a href="healthy-eating.html"><li>Healthy Eating</li></a>
+    <a href="health-tips.html"><li>Health Topics</li></a>
+    <a href="about-us.html"><li>About Us</li></a>
+    </ul>
+  </div>
+
+  <div class="col-6">
+    <h1>Health Topics</h1>
+    <p>Learn the facts about heart conditions and stroke so you can increase your confidence in making changes to improve and maintain your health.</p>
+	
+  </div>
+
+  
+</div>
+<div class="row">
+	
+	<div class="col-3">
+	
+	
+	</div>
+	<div class="col-3" style="border:solid">
+		<h3>We're here for caregivers</h3>
+		<p>Resources for those caring for loved ones dealing with cardiovascular disease.</p>
+	</div>
+	<div class="col-3" style="border:solid">
+		<h3>Heart attack warning signs</h3>
+		<p>Some heart attacks come on slowly. Know the warning signs, and when to call for emergency.</p>
+	</div>
+	<div class="col-3" style="border:solid">
+		<h3>Coronavirus and heart health</h3>
+		<p>Current, science-based information about the COVID-19 pandemic.</p>
+	
+	</div>
+</div>
+<br>
+<div class="footer">
+  <p>©2020 Heart Association, Inc. All rights reserved</p>
+</div>
+
+</body>
+</html>
